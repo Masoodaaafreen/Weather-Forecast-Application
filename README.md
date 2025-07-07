@@ -2,18 +2,17 @@
 
 This repository contains a basic Python script that fetches and displays current weather data for a specified city. It uses the OpenWeatherMap API to get the weather information.
 
-Project Structure
-weather_app_simple.py: The main Python script that handles fetching and displaying weather data.
+**Project Structure**
 
-weather_app_simple.py - Code Overview
+The main Python script that handles fetching and displaying weather data.
 This Python script is a simple command-line tool for getting quick weather forecasts.
 
-Key Components:
+**Key Components:**
 Import Libraries:
 
 requests: Used to make HTTP requests to the OpenWeatherMap API.
 
-Configuration:
+**Configuration:**
 
 API_KEY: A placeholder for your OpenWeatherMap API key. You must replace 'your_api_key_here' with your actual API key.
 
@@ -37,7 +36,7 @@ If 200 (OK), it extracts and prints the city name, weather description, temperat
 
 If the status code is not 200, it prints an error message indicating that the city was not found or there was an API error.
 
-Dependencies
+**Dependencies**
 The weather_app_simple.py script relies on the following external Python library:
 
 requests: For making HTTP requests.
@@ -46,7 +45,8 @@ You can install it using pip:
 
 pip install requests
 
-How to Run
+**How to Run**
+
 Obtain an API Key: Get a free API key from OpenWeatherMap.
 
 Configure API Key:
@@ -67,5 +67,6 @@ python weather_app_simple.py
 
 The script will prompt you to "Enter city name:". Type the city name (e.g., London, Tokyo) and press Enter to see the weather forecast.
 
-**Output**
+**OUTPUT**
+ 
 ![WhatsApp Image 2025-07-05 at 20 11 36_18a5b86b](https://github.com/user-attachments/assets/44902446-b036-4cf2-a8da-8fbdc43346a7)
