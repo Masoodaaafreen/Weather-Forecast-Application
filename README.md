@@ -66,3 +66,6 @@ Execute: Run the script from your terminal:
 python weather_app_simple.py
 
 The script will prompt you to "Enter city name:". Type the city name (e.g., London, Tokyo) and press Enter to see the weather forecast.
+
+**Output**
+![WhatsApp Image 2025-07-05 at 20 11 36_18a5b86b](https://github.com/user-attachments/assets/44902446-b036-4cf2-a8da-8fbdc43346a7)
